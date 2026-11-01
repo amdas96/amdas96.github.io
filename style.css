@@ -78,7 +78,7 @@ header.hero h1{font-size:2.6rem; max-width:20ch;}
 .links a:hover{border-bottom-color:var(--accent);}
 .hero-photo{
   width:100%; max-width:360px; aspect-ratio:1/1; object-fit:cover;
-  border-radius:4px; border:1px solid var(--rule); justify-self:end; display:block;
+  justify-self:end; display:block;
 }
 .metrics{display:grid; grid-template-columns:repeat(3,1fr); gap:32px; margin-top:52px;}
 .metric{border-top:2px solid var(--accent); padding-top:14px;}
@@ -98,6 +98,7 @@ section:last-of-type{border-bottom:none;}
 .split{display:grid; grid-template-columns:1fr 2fr; gap:48px;}
 .split p{margin:0 0 14px; color:var(--ink-soft); max-width:66ch;}
 .section-foot{margin-top:28px;}
+.illus{width:100%; max-width:760px; height:auto; display:block; margin-top:28px;}
 
 /* ============ 8. CARDS (projects) ============ */
 .card-grid{display:grid; grid-template-columns:repeat(2,1fr); gap:32px;}
@@ -144,7 +145,8 @@ section:last-of-type{border-bottom:none;}
 
 /* ============ 11. CERTIFICATIONS ============ */
 .cert-grid{display:grid; grid-template-columns:repeat(2,1fr); gap:20px;}
-.cert{background:var(--surface); border:1px solid var(--rule); border-radius:4px; padding:20px;}
+.cert{background:var(--surface); border:1px solid var(--rule); border-radius:4px; padding:20px; display:flex; gap:18px; align-items:flex-start;}
+.cert-badge{width:84px; height:84px; flex:none;}
 .cert .cert-date{font-size:var(--text-sm); color:var(--ink-soft);}
 .cert h3{margin:4px 0 4px;}
 .cert .cert-issuer{font-size:var(--text-md); color:var(--ink-soft); margin:0;}

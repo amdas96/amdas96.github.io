@@ -10,7 +10,13 @@ Plain HTML + CSS, no build step. Hosted free on GitHub Pages at https://amdas96.
 - `certifications.html`: certifications and awards
 - `project-template.html`: copy this to write a full case study for any project
 - `style.css`: ALL colors, sizes and layout (edit once, every page updates)
-- `assets/`: images (`profile.svg`, `placeholder.svg`, `favicon.svg`)
+- `assets/`: all images
+  - `akhil-avatar.svg`: illustrated hero avatar (based on your photo)
+  - `thumb-*.svg`: 4 project thumbnails (supply chain, insurance dashboard, forecasting, voter prediction)
+  - `badge-*.svg`: 4 certification / award badges
+  - `illustration-data-pipeline.svg`: conceptual illustration on the home page
+  - `og-image.png`: preview image shown when your link is shared on LinkedIn / WhatsApp
+  - `favicon.svg`, `placeholder.svg`
 - `resume.pdf`: add your own file with exactly this name
 
 ## Deploy / update
@@ -19,8 +25,8 @@ Plain HTML + CSS, no build step. Hosted free on GitHub Pages at https://amdas96.
 3. Edit later on github.com: open a file, click the pencil, edit, Commit. Live in 1-2 minutes.
 
 ## Do these 6 things before sharing the link
-1. **Photo**: save a square photo as `assets/akhil.jpg`, then in `index.html` change `assets/profile.svg` to `assets/akhil.jpg`.
-2. **Project screenshots**: save images in `assets/` and replace `assets/placeholder.svg` in each card in `projects.html` (and the 3 cards on the home page).
+1. **Photo (optional)**: the hero uses the illustrated avatar. To use a real photo instead, save a square one as `assets/akhil.jpg` and change `assets/akhil-avatar.svg` to `assets/akhil.jpg` in `index.html`.
+2. **Project screenshots**: the thumbnails are illustrative mockups with no real numbers. When you have real dashboard or chart screenshots, save them in `assets/` and swap the `thumb-*.svg` names in `projects.html` (and the 3 cards on the home page).
 3. **Resume**: add `resume.pdf` to the repo root (the buttons 404 without it).
 4. **Credential links**: if you have URLs for your certificates, paste them using the commented snippet in `certifications.html`.
 5. **Check wording**: confirm "Cadd Center" spelling and add the CGPA scale in `experience.html` (comments mark both); confirm the Nielsen bullets are fine to share publicly.
